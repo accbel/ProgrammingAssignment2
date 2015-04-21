@@ -40,7 +40,7 @@ makeCacheMatrix <- function(base = matrix()) {
 
 ## Write a short comment describing this function
 
-#This function takes a cacheable matrix and calculates its inverse, storing the
+# This function takes a cacheable matrix and calculates its inverse, storing the
 # result in a cache region to avoid repeatable computations and waste of time
 cacheSolve <- function(cacheMatrix, ...) {
   ## Return a matrix that is the inverse of 'cacheMatrix'
